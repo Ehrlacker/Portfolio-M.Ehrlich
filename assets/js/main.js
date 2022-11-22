@@ -13,3 +13,23 @@ AOS.init({
   anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
 
 });
+
+
+const contact = document.querySelector('.contact')
+const contactbtn = document.querySelector('.contact-btn')
+const currentYear = document.querySelector('.current-year')
+
+contact.addEventListener('click', function(){
+window.location.href="mailto:matt.ehrlich93@yahoo.com"
+})
+
+contactbtn.addEventListener('click', function(){
+window.location.href="mailto:matt.ehrlich93@yahoo.com"
+})
+
+const year = new Date().getFullYear()
+
+function returnYear(){
+  currentYear.innerHTML = year
+}
+returnYear()
