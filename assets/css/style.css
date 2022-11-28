@@ -12,10 +12,12 @@
 }
 
 body {
-    background-color: var(--color-base2);
+    background-color: #2C394B;
+    /* var(--color-base2); */
     color: var(--color-body);
     font-family: var(--font-base), sans-serif;
 }
+
 
 h1,h2,h3,h4,h5,h6 {
     color: var(--color-heading);
@@ -29,7 +31,8 @@ a {
 }
 
 a:hover {
-    color: var(--color-brand);
+    color: #FF4C29;
+    /* var(--color-brand); */
 }
 
 img {
@@ -37,11 +40,13 @@ img {
 }
 
 .text-brand {
-    color: var(--color-brand);
+    color: #EB6440
+    /* var(--color-brand); */
 }
 
 .bg-base {
-    background-color: var(--color-base);
+    background-color: #334756;
+    /* var(--color-base); */
 }
 
 .full-height {
@@ -60,7 +65,8 @@ img {
 }
 
 .shadow-effect:hover {
-    box-shadow: -6px 6px 0 0 var(--color-brand);
+    box-shadow: -6px 6px 0 0 #FF4C29
+    /* var(--color-brand); */
 }
 
 .iconbox {
@@ -70,13 +76,16 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    background-color: var(--color-brand);
-    color: var(--color-base);
+    background-color: #FF4C29;
+     /* var(--color-brand); */
+    color: #334756;
+    /* var(--color-base); */
 }
 
 /* NAVBAR */
 .navbar {
-    background-color: var(--color-base);
+    background-color: #334756;
+    /* var(--color-base); */
 }
 
 .navbar .nav-link {
@@ -86,24 +95,29 @@ img {
 }
 
 .navbar .nav-link:hover {
-    color: var(--color-brand);
+    color: #FF4C29;
+    /* var(--color-brand); */
 }
 
 .navbar .nav-link.active {
-    color: var(--color-brand);
+    color: #FF4C29;
+    /* var(--color-brand); */
 }
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/finn-6zr9ctxTmUo-unsplash.jpg);
+        /* background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../images/finn-6zr9ctxTmUo-unsplash.jpg); */
+        background: linear-gradient(rgb(51, 71, 86, 0.8), rgb(51, 71, 86, 0.8)), url(../images/finn-6zr9ctxTmUo-unsplash.jpg);
         background-size: cover;
         background-position: center;
     }
 
+
     .navbar-brand img {
-        border: 8px solid var(--color-brand);
+        border: 8px solid #FF4C29;
+        /* var(--color-brand); */
     }
 
     /* CONTENT WRAPPER */
@@ -119,18 +133,22 @@ img {
 }
 
 .btn-brand {
-    background-color:
-     var(--color-brand);
-    border-color: 
-    var(--color-brand);
-    color: var(--color-base);
+    background-color: #FF4C29;
+     /* var(--color-brand); */
+    border-color: #FF4C29;
+    /* var(--color-brand); */
+    color: #334756
+     /* var(--color-base); */
 }
 
 .btn-brand:hover,
 .btn-brand:focus {
-    background-color: var(--color-brand2);
-    color: var(--color-base);
-    border-color: var(--color-brand2);
+    background-color: #eb7c40;
+     /* var(--color-brand2); */
+    color: #334756;
+    /* var(--color-base); */
+    border-color: #eb7c40;
+    /* var(--color-brand2); */
 }
 
 .link-custom {
@@ -142,7 +160,8 @@ img {
     content: "";
     width: 0%;
     height: 2px;
-    background-color: var(--color-brand);
+    background-color: #FF4C29;
+     /* var(--color-brand); */
     position: absolute;
     left: 0;
     top: 110%;
@@ -168,13 +187,16 @@ img {
 
 /* CONTACT */
 #contact .form-control {
-    background-color: var(--color-base);
-    border-color: var(--color-base);
+    background-color: #334756;
+    /* var(--color-base); */
+    border-color: #334756;
+     /* var(--color-base); */
     color: var(--color-body);
 }
 
 #contact .form-control:focus {
-    border-color: var(--color-brand);
+    border-color: #FF4C29;
+     /* var(--color-brand); */
     box-shadow: none;
 }
 
@@ -197,7 +219,8 @@ img {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-base);
+    background-color: #334756;
+    /* var(--color-base); */
     border-radius: 100px;
     font-size: 24px;
 }
@@ -217,6 +240,12 @@ list-style-type: none;
 margin: .25rem;
 border: solid .15rem;
 border-radius: 1rem;
-border-color: var(--color-brand);
+border-color: #FF4C29;
+ /* var(--color-brand); */
 
 }
+
+
+
+/* Brand2
+#eb8a40;--- */
