@@ -246,6 +246,14 @@ border-color: #FF4C29;
 }
 
 
+.linkedin-link, .YouTbe-link{
+   text-decoration: underline; 
+   color: #FF4C29;
+   cursor: pointer;
+}
+
+
+
 
 /* Brand2
 #eb8a40;--- */
