@@ -175,6 +175,7 @@ img {
 /* CARD */
 .card-custom .card-custom-image {
     overflow: hidden;
+    max-height: 460px;
 }
 
 .card-custom .card-custom-image img {
