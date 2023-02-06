@@ -248,7 +248,7 @@ border-color: #FF4C29;
 }
 
 
-.linkedin-link, .YouTbe-link{
+.linkedin-link, .YouTube-link, .Podcast-link{
    text-decoration: underline; 
    color: #FF4C29;
    cursor: pointer;
