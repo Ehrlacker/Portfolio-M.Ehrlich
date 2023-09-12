@@ -207,6 +207,8 @@ img {
 .card-custom .card-custom-image {
     overflow: hidden;
     max-height: 460px;
+
+
     object-fit: cover;
 }
 
