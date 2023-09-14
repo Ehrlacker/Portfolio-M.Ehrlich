@@ -304,6 +304,12 @@ border-color:
   
  }
 
+ .tech-link{
+    text-decoration: underline; 
+    color: 
+    var(--color-brand); 
+ }
+
 
 
 
